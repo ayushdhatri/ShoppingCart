@@ -1,0 +1,17 @@
+Functional Requirements:
+
+- User should be able to add item in the cart
+- User should be able to remove Item or modify quantity of an item
+- Capture the product price at the time it added to the cart
+- Enforce a maximum quantity per product per cart
+- Support three discount types - percentage off, flat amount off, buy-X-get-Y-free
+- Allow only one discount per cart
+- Track cart lifecycle through 3 states - Active, Checkout,
+- Notify observer such as analytical team or marketing team when item is added to the cart
+- Support one active cart per minute
+
+Non-Functional Requirements:
+
+- The system should handle concurrent cart modifications without data corruption
+- The system should be modular and extensible to support future discount types
+
