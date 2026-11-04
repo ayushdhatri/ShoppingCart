@@ -11,12 +11,13 @@ public class Cart {
 
     private Map<String, CartItem> cartItems;
 
-    private double totalPrice;
+
+    private CartStatus status;
 
     Cart(String id){
         this.id = id;
         this.cartItems = new ConcurrentHashMap<>();
-        this.totalPrice = 0.0;
+        this.status = CartStatus.ACTIVE;
     }
 
     void addItem(CartItem cartItem){
