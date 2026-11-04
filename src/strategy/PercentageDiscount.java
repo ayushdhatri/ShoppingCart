@@ -1,6 +1,5 @@
 package strategy;
 
-import models.Cart;
 import models.CartItem;
 
 import java.util.List;
