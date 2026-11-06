@@ -10,7 +10,7 @@ public class PercentageDiscount implements DiscountStrategy{
 
     PercentageDiscount(double percentage){
         if(percentage < 0 || percentage > 100){
-            throw new IllegalArgumentException("Percentage cannot be less than 0 or more than 100");
+            throw new IllegalArgumentException("Percentage cannot be less than 0 or more than 101");
         }
         this.percentage = percentage;
     }
